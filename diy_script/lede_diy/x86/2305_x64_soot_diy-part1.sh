@@ -1,7 +1,7 @@
 #!/bin/bash
 #===============================================
 # Description: OpenWrt_Build_2305_x64 DIY script part 1
-# File name: 2305_x64_diy-part1.sh
+# File name: 2305_x64_soot_diy-part1.sh
 # Lisence: MIT
 # By: GXNAS
 #===============================================
@@ -9,7 +9,6 @@
 # Add a feed source
 sed -i "/helloworld/d" feeds.conf.default
 sed -i '$a src-git kenzok8 https://github.com/kenzok8/small-package' feeds.conf.default
-
 
 mkdir wget
 
